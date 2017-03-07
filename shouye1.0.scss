@@ -1,0 +1,152 @@
+@charset "utf-8";
+$titelFont:16px;
+body{
+    font-size:$titelFont;
+    width:1300px;
+    height:100%;
+    position:relative;
+}
+*{ 
+    padding:0px;
+    margin:0px;
+}
+ul,li{
+    list-style-type:none;
+}
+img{
+    border:none;
+}
+#Fixed p:nth-child(1){
+    width:42px;
+    height:342px;
+    background:#000;
+    position:fixed;
+    top:0;
+    right:0;
+    color:#fff;
+    text-align:center;
+    font-size:12px;
+}
+#Fixed p:nth-child(2){
+    width:42px;
+    height:169px;
+    background:#000;
+    border-top:solid 1px white;
+    position:fixed;
+    top:342px;
+    right:0;
+    color:#fff;
+    text-align:center;
+    font-size:12px;
+}
+#Fixed p:nth-child(3){
+    width:42px;
+    height:342px;
+    background:#000;
+    border-top:solid 1px white;
+    position:fixed;
+    right:0;
+    bottom:0;
+    color:#fff;
+    text-align:center;
+    font-size:12px;
+}
+header{
+    width:100%;
+    height:34px;
+    background:#f2f2f2;
+    color:#000;
+    line-height:34px;
+    font-size:12px;
+}
+#welcomex{
+    float:left;
+    margin-left:30px;
+    margin-right:200px;
+}
+#welcomex a{
+    color:#f00;
+}
+#menux{
+    float:left;
+    margin-left:200px;
+}
+#menux li{
+    float:left;
+    width:84px;
+}
+#menux li p:nth-child(1){
+    float:left;
+    margin-right:2px;
+}
+#menux li p:nth-child(2){
+    float:left;
+}
+#menux li:hover{
+    font-weight:bolder;
+}
+#sub1{
+    display:none;
+    width:84px;
+    height:200px;
+    text-align:center;
+    font-weight:normal;
+    
+}
+#menux li:nth-child(1):hover #sub1{
+    display:block;
+    
+}
+#menux li:nth-child(2){
+     position:relative;
+}
+#sub2{
+    display:none;
+    width:150px;
+    height:100px;
+    text-align:center;
+    font-weight:normal;
+    position:absolute;
+    top:34px;
+    left:0px;
+    
+}
+#menux li:nth-child(2):hover #sub2{
+    display:block;
+}
+#menux li:nth-child(4),#menux li:nth-child(6){
+    padding-left:4px;
+    width:68px;
+}
+#menux li:nth-child(5){
+    padding-left:10px;
+    width:60px;
+}
+#menux li:nth-child(7){
+     position:relative;
+}
+//#imgx1{
+//  display:none;
+//  text-align:center;
+//  font-weight:normal;
+//  position:absolute;
+//  top:34px;
+//  left:0px;
+//  background:url("../img/guanwang-img/6.jpg") no-repeat;
+//  
+//}
+//#menux li:nth-child(7):hover #imgx1{
+//  display:block;
+//  Z-index:5;
+//}
+#menux a{
+    text-decoration:none;
+    color:#000;
+}
+footer{
+    width:100%;
+    height:2000px;
+}
+
+
+
